@@ -18,7 +18,7 @@
 #import "UIImage+QMUI.h"
 #import "NSString+QMUI.h"
 #import "UIViewController+QMUI.h"
-#import "QMUIKit.h"// 为了引入其中定义的 QMUI_VERSION
+#import "../include/QMUIKit.h"// 为了引入其中定义的 QMUI_VERSION
 
 // 在 iOS 8 - 11 上实际测量得到
 // Measured on iOS 8 - 11
