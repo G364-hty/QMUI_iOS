@@ -26,8 +26,8 @@ let package = Package(
             resources: [
                 .process("QMUIResources"),
                 .process("PrivacyInfo.xcprivacy")
-            ],
-            publicHeadersPath: "include"
+            ]
+//            publicHeadersPath: "include"
         )
     ],
     swiftLanguageVersions: [.v5]
