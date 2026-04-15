@@ -1,4 +1,4 @@
-// swift-tools-version:5.7
+// swift-tools-version:5.5
 import PackageDescription
 
 let package = Package(
@@ -22,11 +22,11 @@ let package = Package(
                 "QMUIMainFrame",
                 "QMUIComponents",
                 "UIKitExtensions"
-            ],
-            resources: [
-                .process("QMUIResources"),
-                .process("PrivacyInfo.xcprivacy")
             ]
+//            resources: [
+//                .process("QMUIResources"),
+//                .process("PrivacyInfo.xcprivacy")
+//            ]
 //            publicHeadersPath: "include"
         )
     ],
