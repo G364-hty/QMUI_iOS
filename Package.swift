@@ -16,15 +16,18 @@ let package = Package(
         .target(
             name: "QMUIKit",
             path: "QMUIKit",
-//            exclude: ["Info.plist"],
+            exclude: ["Info.plist"],
             sources: [
-                "QMUICore"
+                "QMUICore",
+                "QMUIMainFrame",
+                "QMUIComponents",
+                "UIKitExtensions"
             ],
-//            resources: [
-//                .process("QMUIResources"),
-//                .process("PrivacyInfo.xcprivacy")
-//            ],
-//            publicHeadersPath: "include"
+            resources: [
+                .process("QMUIResources"),
+                .process("PrivacyInfo.xcprivacy")
+            ],
+            publicHeadersPath: "include"
         )
     ],
     swiftLanguageVersions: [.v5]
