@@ -15,14 +15,14 @@ let package = Package(
     targets: [
         .target(
             name: "QMUIKit",
-            path: "QMUIKit",
-            exclude: ["Info.plist"],
-            sources: [
-                "QMUICore",
-                "QMUIMainFrame",
-                "QMUIComponents",
-                "UIKitExtensions"
-            ]
+            path: "QMUIKit"
+//            exclude: ["Info.plist"],
+//            sources: [
+//                "QMUICore",
+//                "QMUIMainFrame",
+//                "QMUIComponents",
+//                "UIKitExtensions"
+//            ]
 //            resources: [
 //                .process("QMUIResources"),
 //                .process("PrivacyInfo.xcprivacy")
