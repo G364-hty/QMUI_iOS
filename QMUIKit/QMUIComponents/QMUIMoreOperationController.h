@@ -15,8 +15,8 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import "QMUIModalPresentationViewController.h"
-#import "QMUIButton.h"
+#import <QMUIKit/QMUIModalPresentationViewController.h>
+#import <QMUIKit/QMUIButton.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

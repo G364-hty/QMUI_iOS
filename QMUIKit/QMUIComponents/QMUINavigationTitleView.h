@@ -14,7 +14,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "QMUIButton.h"
+#import <QMUIKit/QMUIButton.h>
 
 @class QMUINavigationTitleView;
 

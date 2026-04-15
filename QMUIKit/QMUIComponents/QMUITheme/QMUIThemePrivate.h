@@ -14,7 +14,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import "UIColor+QMUI.h"
+#import <QMUIKit/UIColor+QMUI.h>
 #import "UIImage+QMUITheme.h"
 #import "UIVisualEffect+QMUITheme.h"
 

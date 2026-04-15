@@ -14,7 +14,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "UITableView+QMUI.h"
+#import <QMUIKit/UITableView+QMUI.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

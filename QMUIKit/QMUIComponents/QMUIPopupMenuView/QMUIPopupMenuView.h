@@ -14,12 +14,12 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "QMUIPopupContainerView.h"
-#import "QMUIPopupMenuItemViewProtocol.h"
-#import "QMUIPopupMenuItem.h"
-#import "QMUITableView.h"
-#import "QMUILabel.h"
-#import "QMUIPopupMenuItemView.h"
+#import <QMUIKit/QMUIPopupContainerView.h>
+#import <QMUIKit/QMUIPopupMenuItemViewProtocol.h>
+#import <QMUIKit/QMUIPopupMenuItem.h>
+#import <QMUIKit/QMUITableView.h>
+#import <QMUIKit/QMUILabel.h>
+#import <QMUIKit/QMUIPopupMenuItemView.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

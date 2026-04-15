@@ -14,9 +14,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "QMUICommonViewController.h"
-#import "QMUIModalPresentationViewController.h"
-#import "QMUITableView.h"
+#import <QMUIKit/QMUICommonViewController.h>
+#import <QMUIKit/QMUIModalPresentationViewController.h>
+#import <QMUIKit/QMUITableView.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

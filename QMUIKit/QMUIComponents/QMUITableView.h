@@ -14,7 +14,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "QMUITableViewProtocols.h"
+#import <QMUIKit/QMUITableViewProtocols.h>
 
 @interface QMUITableView : UITableView
 
@@ -22,4 +22,3 @@
 @property(nonatomic, weak) id<QMUITableViewDataSource> dataSource;
 
 @end
-

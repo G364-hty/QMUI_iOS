@@ -56,7 +56,7 @@ static NSString * const QMUI_VERSION = @"4.8.0";
 #import "QMUIConsole.h"
 #import "QMUIConsoleToolbar.h"
 #import "QMUIConsoleViewController.h"
-#import "QMUICore.h"
+#import <QMUIKit/QMUICore.h>
 #import "QMUIDialogViewController.h"
 #import "QMUIDisplayLinkAnimation.h"
 #import "QMUIEasings.h"

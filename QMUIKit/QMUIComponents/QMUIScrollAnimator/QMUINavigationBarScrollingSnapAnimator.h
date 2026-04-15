@@ -13,7 +13,7 @@
 //  Created by QMUI Team on 2018/S/30.
 //
 
-#import "QMUIScrollAnimator.h"
+#import <QMUIKit/QMUIScrollAnimator.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

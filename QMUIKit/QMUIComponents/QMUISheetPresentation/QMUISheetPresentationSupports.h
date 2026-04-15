@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
-#import "QMUINavigationController.h"
+#import <QMUIKit/QMUINavigationController.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

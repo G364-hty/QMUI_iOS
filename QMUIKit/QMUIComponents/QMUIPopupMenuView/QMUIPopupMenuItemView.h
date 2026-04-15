@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "QMUIPopupMenuItemViewProtocol.h"
+#import <QMUIKit/QMUIPopupMenuItemViewProtocol.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

@@ -13,7 +13,7 @@
 //  Created by QMUI Team on 2018/1/24.
 //
 
-#import "QMUICommonTableViewController.h"
+#import <QMUIKit/QMUICommonTableViewController.h>
 
 /// 用于管理 QMUILog name 的调试界面，可直接 init 使用
 @interface QMUILogManagerViewController : QMUICommonTableViewController
