@@ -1,4 +1,4 @@
-// swift-tools-version:5.7
+// swift-tools-version:5.5
 import PackageDescription
 
 let package = Package(
@@ -15,7 +15,20 @@ let package = Package(
     targets: [
         .target(
             name: "QMUIKit",
-            path: "QMUIKit"
+            path: "QMUIKit",
+            exclude: ["Info.plist"],
+            sources: [
+                "QMUICore",
+                "QMUIMainFrame",
+                "QMUIComponents",
+                "UIKitExtensions"
+            ],
+            resources: [
+                .process("QMUIResources"),
+                .process("PrivacyInfo.xcprivacy")
+            ],
+            publicHeadersPath: "include"
         )
-    ]
+    ],
+    swiftLanguageVersions: [.v5]
 )
